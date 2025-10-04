@@ -1307,7 +1307,7 @@ eote.defaults = {
             LARGE: 40
         },
         ABILITY: {
-            BLANK: "http://i.imgur.com/g3hoJRG.png",
+            BLANK: "https://media.discordapp.net/attachments/1424109773783306313/1424109795060744342/green-blank.png?ex=68e2c119&is=68e16f99&hm=88e32da6d1e0a801a231a592c4c3ef4b3b8c6f00bfeb521ddfc23cbadd93fdf8&=&format=webp&quality=lossless",
             A: "http://i.imgur.com/VG7HnFE.png",
             AA: "http://i.imgur.com/ynn0deR.png",
             S: "http://i.imgur.com/HnweiQT.png",
@@ -4560,3 +4560,4 @@ function convertTokensToTags(skillSuggestions, symReplace) {
 on('ready', function() {
     eote.init();
 });
+
