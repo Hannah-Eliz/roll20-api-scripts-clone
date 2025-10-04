@@ -1307,12 +1307,12 @@ eote.defaults = {
             LARGE: 40
         },
         ABILITY: {
-            BLANK: "http://i.imgur.com/g3hoJRG.png",
-            A: "http://i.imgur.com/VG7HnFE.png",
-            AA: "http://i.imgur.com/ynn0deR.png",
-            S: "http://i.imgur.com/HnweiQT.png",
-            SA: "http://i.imgur.com/iVXuNKP.png",
-            SS: "http://i.imgur.com/IVDgDKo.png"
+            BLANK: "https://media.discordapp.net/attachments/1424109773783306313/1424109795060744342/green-blank.png?ex=68e2c119&is=68e16f99&hm=88e32da6d1e0a801a231a592c4c3ef4b3b8c6f00bfeb521ddfc23cbadd93fdf8&=&format=webp&quality=lossless",
+            A: "https://media.discordapp.net/attachments/1424109773783306313/1424109796398731335/green-triumph.png?ex=68e2c11a&is=68e16f9a&hm=580009e5d88071a5a21a757905a91692884dca24c2509aa225d376ac547d76ba&=&format=webp&quality=lossless",
+            AA: "https://cdn.discordapp.com/attachments/1424109773783306313/1424109796696789272/green-triumph2.png?ex=68e2c11a&is=68e16f9a&hm=bfb3b488d68aff7ffb4f79bb473f769a839def6f035a306cf0408e2f8702896a&",
+            S: "https://media.discordapp.net/attachments/1424109773783306313/1424109795362738276/green-success.png?ex=68e2c119&is=68e16f99&hm=4f25648fb3ed96361aaf4dc426ca2d2ffbc6d500bf6636530afc147c803c40a8&=&format=webp&quality=lossless",
+            SA: "https://cdn.discordapp.com/attachments/1424109773783306313/1424109796008656957/green-successtriumph.png?ex=68e2c11a&is=68e16f9a&hm=7e52d8327857e299f7ea03e59cc47762052d5e4e624e39e3e2b2f782d7e697a0&",
+            SS: "https://cdn.discordapp.com/attachments/1424109773783306313/1424109795694219326/green-success2.png?ex=68e2c119&is=68e16f99&hm=2193137e902c33d8ee8a727cbf618cb2f74cafec4760593fa415544cc518c661&"
         },
         BOOST: {
             BLANK: "http://i.imgur.com/nlIAfJx.png",
@@ -4560,3 +4560,4 @@ function convertTokensToTags(skillSuggestions, symReplace) {
 on('ready', function() {
     eote.init();
 });
+
